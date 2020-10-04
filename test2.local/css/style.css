@@ -1,0 +1,137 @@
+body {
+    background: #E6EEF5;
+    /*display: inline-flex;*/
+    flex-wrap: wrap;
+    flex-direction: row;
+    font-family: sans-serif;
+   }
+
+/*.table{
+  display: table;
+}*/
+
+.lot{
+  display: inline-flex;
+  /*flex-direction: row;*/
+  position: relative;
+  text-align: center;
+  border-radius: 7px;
+  border-color:#FFDD2D;
+  border-width: 2px;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  width: 280px;
+  height: 280px;
+  margin: 16px;
+  background: #fff;
+  font-size: 20px;
+}
+
+.put{
+  position: fixed;
+  top: 30%;
+  left: 50%;
+  width: 400px;
+  height:50px;
+  margin: -50px 0 0 -200px;
+  font-size: 17pt;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+.input{
+  font-family: 'Roboto', sans-serif;
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  width: 200px;
+  height:30px;
+  margin: -50px 0 0 -202px;
+  border-color:#FFDD2D;
+}
+.list{
+    position: fixed;
+    top: 40%;
+    text-align: center;
+    left: 50%;
+    width: 200px;
+    height:30px;
+    margin: -50px 0 0 0px;
+    font-family: 'Roboto', sans-serif;
+    border-color:#FFDD2D;
+}
+.list:focus {
+outline: none;
+}
+
+.button1{
+  position: fixed;
+  top: 49%;
+  left: 50%;
+  width: 150px;
+  height:30px;
+  margin: -50px 0 0 -75px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  border-radius: 7px;
+  border-color:#FFDD2D;
+  background: white;
+}
+.button2{
+  position: fixed;
+  top: 60%;
+  left: 50%;
+  width: 200px;
+  height:50px;
+  margin: -50px 0 0 -100px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  border-radius: 7px;
+  border-color:#FFDD2D;
+  background: white;
+}
+.button3{
+  position: absolute;
+  top: 200px;
+  right:150px;
+  width: 100px;
+  height:50px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  border-radius: 7px;
+  border-color:#FFDD2D;
+  background: white;
+}
+
+.button4{
+  position: absolute;
+  top: 200px;
+  right:30px;
+  width: 100px;
+  height:50px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  border-radius: 7px;
+  border-color:#FFDD2D;
+  background: white;
+}
+
+
+.button1:hover{
+  background: #FFDD2D;
+  border-color:#FFDD2D;
+}
+.button2:hover{
+  background: #FFDD2D;
+  border-color:#FFDD2D;
+}
+
+.ls{
+  position: absolute;
+  top: 100px;
+  left: 50%;
+  width: 100px;
+    margin: -50px 0 0 -50px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
